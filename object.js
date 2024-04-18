@@ -1,3 +1,4 @@
+//question1
 const people = [
     {name: "Alice", age:17},
     {name: "Eunice", age:22},
@@ -23,7 +24,7 @@ const products = [
     }, {});
   }
   console.log(itemByCategory(products));
-  //Q3
+  //question3
 const students = [
     { name: 'John', scores: [90, 80, 85] },
     { name: 'Jane', scores: [95, 92, 88] },
@@ -37,7 +38,7 @@ const students = [
     }).map(student => student.name);
   }
   console.log(highScoringStudents(students));
-  //Q4
+  //question4
   const car = {
     make: 'Ford',
     model: 'Ranger',
